@@ -46,7 +46,7 @@
 &kp A   &kp S   &kp D   &kp F   &kp G                  &kp H   &kp J   &kp K   &kp L   &mt LEFT_SHIFT N6
 &kp Z   &kp X   &kp C   &kp V   &kp B                  &kp N   &kp M   &mt LEFT_ALT LEFT_ARROW   &mt LEFT_SHIFT N5   &kp RIGHT_ARROW
 &kp LEFT_SHIFT &kp LEFT_ALT &kp ESC &kp LEFT_GUI &kp TAB &kp SPACE &kp BACKSPACE &kp ENTER &kp LEFT_CTRL &trans
-            >;
+        >;
           sensor-bindings = < &inc_dec_kp MS_UP MS_DOWN  &inc_dec_kp MS_LEFT MS_RIGHT >;
         };
 
