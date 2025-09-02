@@ -6,8 +6,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 /* ---- IME alias for macOS ---- */
-#define LANG1 EISU
-#define LANG2 KANA
+#define LANG1 HENK
+#define LANG2 MHEN
 
 #define SYMBOL 1
 #define NUM    2
