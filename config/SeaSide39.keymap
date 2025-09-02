@@ -101,7 +101,7 @@
 &trans  &trans  &trans     &trans  &trans                                            &trans            &trans  &trans  &trans  &trans
 &trans  &trans  &trans     &trans  &kp LS(LG(N5))  &kp LS(LG(N4))      &kp LC(DOWN)  &kp LC(UP_ARROW)                          &trans
             >;
-            sensor-bindings = <&inc_dec_kp MW_UP MW_DOWN>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         CONFIG {
