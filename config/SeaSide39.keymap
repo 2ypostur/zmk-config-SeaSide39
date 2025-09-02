@@ -51,7 +51,7 @@
 &kp LEFT_SHIFT    &kp LEFT_ALT   &lt 5 LANG1  &kp LEFT_WIN  &lt 2 LANG2  &lt 1 SPACE             &kp BACKSPACE  &kp ENTER                                                       &lt LCTRL NUMBER_9
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp MW_UP MW_DOWN  &inc_dec_kp MW_LEFT MW_RIGHT>;
         };
 
         SYMBOL {
