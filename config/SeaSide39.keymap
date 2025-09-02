@@ -99,7 +99,7 @@
 &trans  &trans  &trans     &trans  &trans                                            &trans            &trans  &trans  &trans  &trans
 &trans  &trans  &trans     &trans  &kp LS(LG(N5))  &kp LS(LG(N4))      &kp LC(DOWN)  &kp LC(UP_ARROW)                          &trans
             >;
-            sensor-bindings = <&inc_dec_kp MS_WH_UP MS_WH_DOWN  &inc_dec_kp MS_WH_LEFT MS_WH_RIGHT>;
+            sensor-bindings = <&inc_dec_kp MS_WH_UP MS_WH_DOWN>;
         };
 
         CONFIG {
