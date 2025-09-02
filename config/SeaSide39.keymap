@@ -51,12 +51,12 @@ keymap {
 &kp Q   &kp W   &kp E   &kp R   &kp T                  &kp Y   &kp U   &kp I   &kp O   &kp P
 &kp A   &kp S   &kp D   &kp F   &kp G                  &kp H   &kp J   &kp K   &kp L   &mt LEFT_SHIFT N6
 &kp Z   &kp X   &kp C   &kp V   &kp B                  &kp N   &kp M   &mt LG(LA) LEFT_ARROW   &mt LG(LS) N5   &kp RIGHT_ARROW
-&kp LEFT_SHIFT &kp LEFT_ALT  &lt NUM LANG1  &kp LEFT_GUI  &lt SYMBOL LANG1  &lt NUM SPACE   &kp BACKSPACE  &lt ARROW BACKSPACE  &kp LEFT_CTRL  &trans
+&kp LEFT_SHIFT &kp LEFT_ALT  &lt CONFIG LANG2  &kp LEFT_GUI  &lt SYMBOL LANG1  &lt NUM SPACE   &kp BACKSPACE  &lt NUM ENTER  &kp LEFT_CTRL
     >;
 
     sensor-bindings = <
-      &inc_dec_kp MS_UP MS_DOWN      /* Y軸: 縦スクロール */
-      &inc_dec_kp MS_LEFT MS_RIGHT   /* X軸: 横スクロール */
+// Y: vertical scroll, X: horizontal scroll
+sensor-bindings = < &inc_dec_kp MS_UP MS_DOWN  &inc_dec_kp MS_LEFT MS_RIGHT >;
     >;
   };
 
@@ -69,8 +69,8 @@ keymap {
     >;
 
     sensor-bindings = <
-      &inc_dec_kp MS_UP MS_DOWN
-      &inc_dec_kp MS_LEFT MS_RIGHT
+// Y: vertical scroll, X: horizontal scroll
+sensor-bindings = < &inc_dec_kp MS_UP MS_DOWN  &inc_dec_kp MS_LEFT MS_RIGHT >;
     >;
   };
 
@@ -82,9 +82,8 @@ keymap {
 &trans          &trans      &trans      &trans      &trans       &trans      &trans       &trans        &trans           &trans
     >;
 
-    sensor-bindings = <
-      &inc_dec_kp MS_UP MS_DOWN
-      &inc_dec_kp MS_LEFT MS_RIGHT
+// Y: vertical scroll, X: horizontal scroll
+sensor-bindings = < &inc_dec_kp MS_UP MS_DOWN  &inc_dec_kp MS_LEFT MS_RIGHT >;
     >;
   };
 
@@ -97,8 +96,8 @@ keymap {
     >;
 
     sensor-bindings = <
-      &inc_dec_kp MS_UP MS_DOWN
-      &inc_dec_kp MS_LEFT MS_RIGHT
+// Y: vertical scroll, X: horizontal scroll
+sensor-bindings = < &inc_dec_kp MS_UP MS_DOWN  &inc_dec_kp MS_LEFT MS_RIGHT >;
     >;
   };
 };
