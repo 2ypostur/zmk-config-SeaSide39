@@ -56,10 +56,10 @@
 
         SYMBOL {
             bindings = <
-&kp ESCAPE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9        &kp FSLH                             &kp BSLH        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN
-&kp TAB     &kp NUMBER_4    &kp NUMBER_5   &kp NUMBER_6         &kp EQUAL                            &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI       &kp COLON
-&kp LEFT_SHIFT  &kp NUMBER_1   &kp NUMBER_2      &kp NUMBER_3  &kp MINUS                        &kp PIPE        &kp LBKT              &kp RBKT               &kp SQT        &kp DOUBLE_QUOTES
-&trans     &trans      &trans         &trans           &trans        &trans      &kp COMMA  &kp PERIOD                                                                  &kp ESC
+&kp ESCAPE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9        &kp FSLH                             &kp COMMA        &kp PERIOD        &mkp MB3        &kp LBRC  &kp RBRC
+&kp TAB     &kp NUMBER_4    &kp NUMBER_5   &kp NUMBER_6         &kp EQUAL                            &kp SEMICOLON  &mkp MB1  &mkp MB1  &kp UP_ARROW       &mkp MB2
+&kp LEFT_SHIFT  &kp NUMBER_1   &kp NUMBER_2      &kp NUMBER_3  &kp MINUS                        &kp SLASH        &kp LEFT_ARROW              &kp LEFT_ARROW               &kp DOWN_ARROW        &kp RIGHT_ARROW
+&trans     &trans      &trans         &trans           &trans        &trans      &trans  &trans                                                                  &kp LCTRL
             >;
         };
 
