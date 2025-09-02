@@ -47,7 +47,7 @@
             bindings = <
 &kp Q             &kp W      &kp E         &kp R             &kp T                                                &kp Y            &kp U  &lt 5 I   &kp O     &kp P
 &kp A             &kp S      &kp D         &kp F             &kp G                                                &kp H            &kp J  &kp K     &kp L     &lt LEFT_SHIFT NUMBER_6
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V             &kp B                                                &kp N            &kp M  &mt LEFT_SHIFT LEFT_ARROW  &kp NUMBER_5  &kp RIGHT_ARROW
+&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V             &kp B                                                &kp N            &kp M  &mt LEFT_ALT LEFT_ARROW  &mt LEFT_SHIFT NUMBER_5  &kp RIGHT_ARROW
 &kp LEFT_SHIFT    &kp LEFT_ALT   &lt 3 LANG1  &kp LEFT_WIN  &lt 2 LANG2  &lt 1 SPACE      &kp BACKSPACE  &kp ENTER                             &lt NUMBER_9 LCTRL
             >;
 
