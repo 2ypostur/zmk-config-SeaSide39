@@ -47,7 +47,7 @@
 &kp Q   &kp W   &kp E   &kp R   &kp T                  &kp Y   &kp U   &kp I   &kp O   &kp P
 &kp A   &kp S   &kp D   &kp F   &kp G                  &kp H   &kp J   &kp K   &kp L   &mt LEFT_SHIFT N6
 &kp Z   &kp X   &kp C   &kp V   &kp B                  &kp N   &kp M   &mt LEFT_ALT LEFT_ARROW   &mt LEFT_SHIFT N5   &kp RIGHT_ARROW
-&kp LEFT_SHIFT &kp LEFT_ALT  &lt CONFIG HENK  &kp LEFT_GUI  &lt SYMBOL MHEN  &lt NUM SPACE   &kp BACKSPACE  &lt NUM ENTER  &kp LEFT_CTRL  &trans
+&kp LEFT_SHIFT &kp LEFT_ALT  &lt 3 HENK  &kp LEFT_GUI  &lt 1 MHEN  &lt 2 SPACE   &kp BACKSPACE  &lt NUM ENTER  &kp LEFT_CTRL  &trans
             >;
           sensor-bindings = < &inc_dec_kp MS_UP MS_DOWN  &inc_dec_kp MS_LEFT MS_RIGHT >;
         };
